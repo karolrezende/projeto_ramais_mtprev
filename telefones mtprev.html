@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="mtprev.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@289&display=swap" rel="stylesheet">
+    <title>MTprev - Lista Telefônica</title>
+
+</head>
+<body>
+    <header id ="cabecalho" >
+        <div><img class = "img" src ="logo.png" title="Ir ao MTprev"></div>
+        <div id="botao"><a href="http://172.16.100.13/atendimento/front/helpdesk.public.php"><input class="bot" type="button" value="Abrir chamado"></a></div>
+        <div class="cabecalho_segundo">Ramais telefônicos</div>
+    </header>
+        <div id="popup"> 
+            <div id="fechar_botao">
+                <span class="close">X</span>
+            </div>
+            <p class="mensagem"> Digite a mensagem aqui</p>
+        </div>
+    <div class="principal_pesquisa">     
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Digite o setor" title="Type in a name">
+    </div>
+
+    <table id="myTable" class="sortable">
+        <thead class="header">  
+            <th style="width:30%;">Setor</th>
+            <th style="width:30%;">Ramal</th>
+            <th style="width:30%;">Email</th>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td class="setor">Gerência de Protocolo</td>
+                <td>9307 - 9308 - 9309</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Gerência de Arquivo</td>
+                <td>9364 - 9344</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Diretoria Administrativa</td>
+                <td>9350</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Coordenadoria Administrativa</td>
+                <td>9318</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Callcenter</td>
+                <td>9300 - 9301</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Atendimento</td>
+                <td>9302 - 9303 - 9305 - 9306</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Gerência Financeira</td>
+                <td>9354 - 9375</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Gerência Contábil</td>
+                <td>9345 - 9348 - 9376</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Gerência de Orçamento e Convênio</td>
+                <td>9351 - 9374 - 9380</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Gerência de Folha de Pagamento</td>
+                <td>9334 - 9381</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Coordenadoria de Tecnologia da Informação</td>
+                <td>9366 - 9367</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Gerência de Concessão Poder Executivo</td>
+                <td>9309 - 9352 - 9395 - 9391</td>
+                <td></td>
+            </tr>                  
+            <tr>
+                <td class="setor">Gerência de Concessão Demais Poderes</td>
+                <td>9323</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Gerência de Vida Funcional</td>
+                <td>9388 - 9329 - 9331</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Gerência de Vida Funcional (Averbação)</td>
+                <td>9394</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Coordenadoria de Concessão de Benefícios</td>
+                <td>9316</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Gerência de Conformidade</td>
+                <td>9387</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Gerência de Análise</td>
+                <td>9390</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Coordenadoria de Concessão de Benefícios (Diretor)</td>
+                <td>9328</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Coordenadoria de Concessão de Benefícios (Assessoria)</td>
+                <td>9396 - 9330</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Conselho da Presidência</td>
+                <td>9397 - 9398 - 5368</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Gerência de Cadastro</td>
+                <td>9382 - 9383</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Gerência de Aposentados e Pensionitas</td>
+                <td>9357 - 9317 - 9386 - 9327 - 9385</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Gerência de Cálculo</td>
+                <td>9392</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Gerência de Arrecadação</td>
+                <td>9369</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Gerência de Investimentos Atuária</td>
+                <td>9370</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Gerência de Compensação Previdenciária</td>
+                <td>9372</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Coordenadoria de Receitas Previdenciárias</td>
+                <td>9371</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Núcleo PGE</td>
+                <td>9343</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Gerência de Compensação</td>
+                <td>9321</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Diretoria de Receitas Previdenciárias</td>
+                <td>9310</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Diretoria de Receitas Previdenciárias (Assessoria)</td>
+                <td>9319</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="setor">Gerência de Certidão de Tempo de Contribuição</td>
+                <td>9322 - 9368</td>
+                <td></td>
+            </tr>
+        </tbody>
+        
+    </table>
+    <footer>
+        <center><img src="logo.png" class="banner_rodape" title = "Ir ao MTprev" alt ="Ir ao mtprev"></center>     
+        <p>2021</p>
+    </footer> 
+    <script src="script.js"></script>
+    <script src="alf.js"></script>
+    <script src="popup.js"></script>
+
+</body>
+</html>
